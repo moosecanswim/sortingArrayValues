@@ -20,6 +20,7 @@ public class SortingValues{
 		System.out.println();
 
 		// Swap the values around to put them ascending order.
+		//this goes through the array and at each index will then compare that value with all the following values exchanging the lower one for the higher one
 		for (int i = 0; i < arr.length; i++){
 			for(int j = 0; j < arr.length; j++){
 				if(arr[j]>arr[i]){
